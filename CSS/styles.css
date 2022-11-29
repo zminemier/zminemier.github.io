@@ -59,8 +59,8 @@ body {
     .FORMFATHER {
       margin: 0px auto;
       padding: 30px;
-      background: coral;
-      border: 2px solid cornflowerblue;
+      background: rgb(255, 181, 167);
+      border: 2px solid rgb(252, 213, 206);
     }
 
     form {
@@ -76,8 +76,8 @@ body {
     
     input,button,textarea {
       width: 100%;
-      border: 2px solid cornflowerblue;
-      padding: 13px;
+      border: 2px solid rgb(252, 213, 206);
+      padding-top: 20px;
     }
     
     
@@ -88,9 +88,8 @@ body {
       margin: 10px;
       padding: 17px;
       background-size: 200% auto;
-      color: black;
-      box-shadow: 2px 4px black;
-      background-image: linear-gradient(20deg, bisque 15%, cornflowerblue 50%);
+      color:black;
+      background-image: linear-gradient(20deg,rgb(252, 213, 206)  15%, black 50%);
       transition: all 0.5s;
       border-radius: 10px;
       margin: 0 auto;
@@ -98,4 +97,5 @@ body {
 
     button:hover {
       background-position: right center;
+      color:rgb(252, 213, 206);
     }
