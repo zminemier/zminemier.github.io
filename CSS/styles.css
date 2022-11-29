@@ -4,6 +4,7 @@ body {
 
 .layout {
     grid-template-rows: 0.4fr 1fr 1fr 0.7fr;  
+    grid-template-columns: 1fr 1fr;
   }
   
   .navbar {
