@@ -165,7 +165,9 @@ body {
 .reviewlayout {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.4fr 2fr 2fr 2fr 2fr 2fr 
+  grid-template-rows: 0.4fr 2fr 2fr 2fr 2fr 2fr;
+  
+
 }
 
 
@@ -179,8 +181,9 @@ body {
         row-gap: 5px;
         column-gap: 5px;
         padding: 10px;
-        width: 100%
+        width: 100%;
 
+      
     }
 
     .RATE1 {
@@ -205,14 +208,15 @@ body {
     .AID {
       display: grid;
       grid-column: 1/3;
-      grid-row: 4/6; 
+      grid-row: 5/7; 
       grid-template-columns: 2fr 1fr;
       grid-auto-rows: 100px ;
       background-color: Blue;
       row-gap: 5px;
       column-gap: 5px;
       padding: 10px;
-      width: 100%;
+      width: 100%; 
+  
   }
 
   .RATE2 {
