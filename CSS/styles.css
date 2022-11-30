@@ -147,3 +147,41 @@ body {
       grid-template-rows: .2fr 2fr 2fr;
       grid-template-columns: 1fr 1fr;
     }
+
+    /* This is the Reviews CSS start */
+
+    .JAX {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-auto-rows: 100px ;
+        background-color: Blue;
+        row-gap: 5px;
+        column-gap: 5px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .RATE1 {
+      grid-column: 1/2;
+      grid-row: 1/3;
+      background-color: white;
+    }
+
+    .REVIEW1 {
+      grid-column: 1/2;
+      grid-row: 3/5;
+      background-color: white;
+    }
+
+    .FOTO1 {
+      grid-column: 2/3;
+      grid-row: 1/5;
+      background-color: white;
+
+    }
+
+    .AID{
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      grid-auto-rows: 100px;
+    }
