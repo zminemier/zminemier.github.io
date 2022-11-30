@@ -268,9 +268,15 @@ body {
       grid-column: 2/3;
     }
 
-  
+  .socials {
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    bottom: 180px;
+    left: 130px;
+  }
 
-    
+  
 
 
 
