@@ -224,6 +224,42 @@ body {
       align-items: center;
     }
 
+    .aboutinstaimg {
+      grid-row: 6/7;
+      grid-column: 1/2;
+      height: 80%;
+      width: 50%;
+      margin-left: 10rem;
+      background-image: url(../img/Instagram_logo_2016.svg.webp);
+      background-position: center;
+      background-size: cover;
+      margin: 1rem;
+      background-color: white;
+      border-radius: 30px;
+      background-color: rgb(249, 220, 196);
+      display:flex;
+      justify-content: left;
+      align-items: center;
+    }
+
+    .aboutfacebookimg {
+      grid-row: 6/7;
+      grid-column: 2/3;
+      height: 80%;
+      width: 50%;
+      margin-left: 10rem;
+      background-image: url(../img/Facebook_Logo.png);
+      background-position: center;
+      background-size: cover;
+      margin: 1rem;
+      background-color: white;
+      border-radius: 30px;
+      background-color: rgb(249, 220, 196);
+      display:flex;
+      justify-content: left;
+      align-items: center;
+    }
+
     .aboutinsta {
       grid-row: 7/8;
       grid-column: 1/2;
