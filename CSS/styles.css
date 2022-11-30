@@ -5,7 +5,7 @@ body {
 
 .layout {
     display: grid;
-  grid-template-rows: 0.4fr 1fr 1fr 0.7fr;  
+    grid-template-rows: 0.4fr 1fr 1fr 0.7fr;  
     grid-template-columns: 1fr 1fr;
   }
   
@@ -17,6 +17,7 @@ body {
   .header {
     grid-row: 2/3;
     grid-column: 1/2;
+    margin-left: 40px;
   }
 
 .circle {
@@ -52,7 +53,7 @@ body {
       list-style-type: none;
     }
     
-
+    
 
     .menubar li a {
       color: black; 
