@@ -126,6 +126,5 @@ body {
     .aboutlayout {
       display: grid;
       grid-template-rows: .2fr 1fr 1fr;
-      height: 100vh;
-      grid-template-columns: 200px 2fr 1fr;
+      grid-template-columns: 1fr 1fr;
     }
