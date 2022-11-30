@@ -1,6 +1,8 @@
 body {
     font-family: 'Inter';
     margin: 0;
+    height: 100vh;
+    width: 100vw;
 }
 
 .layout {
@@ -187,6 +189,8 @@ body {
       display: grid;
       grid-template-rows: .05fr 1.8fr .3fr .6fr 1fr .3fr 1fr;
       grid-template-columns: 1fr 1fr;
+      height: 100%;
+      width: 100%;
     }
     .aboutheader {
       grid-row: 2/3;
@@ -202,6 +206,7 @@ body {
       margin: 1rem;
       background-color: white;
       border-radius: 30px;
+      width: 100%;
       background-color: rgb(249, 220, 196);
       display:flex;
       justify-content: left;
