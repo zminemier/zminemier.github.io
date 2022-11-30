@@ -301,8 +301,11 @@ body {
       border-radius: 50px;
       font-size: 10px;
     }
-    
 
+    a.bx:hover{
+      color:black;
+      font-size: larger;
+  }
 
     /* This is the Reviews CSS start */
 
