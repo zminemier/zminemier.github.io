@@ -79,7 +79,8 @@ body {
   }
 
   .area {
-    grid-template-rows: 3/4;
+    grid-row: 3/4;
+    grid-column: 1/3;
   }
 
   .header {
@@ -105,8 +106,6 @@ body {
       background: rgb(255, 181, 167);
       border: 2px solid rgb(252, 213, 206);
       border-radius: 50px;
-      grid-column: 1/3;
-      grid-row: 3/4;
     }
 
     form {
