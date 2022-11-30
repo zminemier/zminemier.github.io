@@ -60,14 +60,16 @@ body {
     }
     
     .menubar li:hover {
-      background-color: #F9DCC4;
+      background-color: black;
       transition: all .3s ease-in-out;
+      
+    }
+
+    .menubar li:hover a {
+      color: rgb(252, 213, 206)
     }
     
-    .menubar li ul li:hover {
-      background-color: #F9DCC4;
-      transition: all .3s ease-in-out;
-    }
+   
 
     .container {
       display: grid;
@@ -249,6 +251,11 @@ body {
        justify-content: center;
        align-items: center;
        background-color: rgb(249, 220, 196);
+    background-image: url("/img/JaxCut.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 1rem;
+      
 
     }
 
@@ -260,6 +267,7 @@ body {
       display:flex;
        justify-content: center;
        align-items: center;
+       font-size: 20pt;
       
     }
 
@@ -309,6 +317,11 @@ body {
       justify-content: center;
       align-items: center;
     background-color: rgb(249, 220, 196);
+    background-image: url("/img/AidenCut.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 1rem;
+  
 
   }
 
