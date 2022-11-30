@@ -185,7 +185,7 @@ body {
 
     .aboutlayout {
       display: grid;
-      grid-template-rows: .05fr 1.8fr .3fr .6fr 1fr .5fr 1fr;
+      grid-template-rows: .05fr 1.8fr .3fr .6fr 1fr .3fr 1fr;
       grid-template-columns: 1fr 1fr;
     }
     .aboutheader {
