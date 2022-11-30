@@ -91,8 +91,6 @@ body {
     text-align: center;
   }
 
-/* This is the beginning of the Appointments CSS */
-
   .bookingslayout {
     display:grid;
     grid-template-rows: .2 .4fr 2fr;
@@ -156,17 +154,24 @@ body {
 
     .aboutlayout {
       display: grid;
-      grid-template-rows: .05fr .8fr .3fr .6fr 1fr;
+      grid-template-rows: .05fr .3fr .3fr .6fr .6fr;
       grid-template-columns: 1fr 1fr;
     }
     .aboutheader {
       grid-row: 2/3;
       grid-column: 1/3;
       text-align: center;
+      height: 90%;
+      max-height: 800px;
+      margin-bottom: 0;
     }
 
     .maddieatwork {
       background-position: center;
+      max-height: 400px;
+      height: 30%;
+      height: 90%;
+      width: 90%;
     }
 
     .aboutmaintext {
@@ -193,6 +198,20 @@ body {
       border-radius: 50px;
     }
 
+    .aboutsocialmedia {
+      grid-row: 5/6;
+      grid-column: 1/3;
+      text-align: center;
+      padding-top: 7%;
+      margin: 10px;
+      padding: 10px 20px;
+      background: rgb(255, 181, 167);
+      border: 2px solid rgb(252, 213, 206);
+      border-radius: 50px;
+
+      
+    }
+
     
 
 
@@ -202,6 +221,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.4fr 2fr 2fr 0.5fr 2fr 2fr;
+  
 
 }
 
@@ -217,7 +237,7 @@ body {
         column-gap: 5px;
         padding: 10px;
         border-radius: 15px ;
-        background-color: rgb(255, 181, 167);
+        
     }
 
     .RATE1 {
@@ -228,7 +248,6 @@ body {
       display:flex;
       justify-content: center;
        align-items: center;
-      background-color: rgb(248, 237, 235);
     }
 
     .REVIEW1 {
@@ -239,7 +258,6 @@ body {
       display:flex;
        justify-content: center;
        align-items: center;
-      background-color: rgb(248, 237, 235);
     }
 
     .FOTO1 {
@@ -271,6 +289,7 @@ body {
       
     }
 
+
     .AID {
       display: grid;
       grid-column: 1/3;
@@ -282,8 +301,7 @@ body {
       column-gap: 5px;
       padding: 10px;
     border-radius: 15px;
-  background-color: rgb(255, 181, 167);
-
+  
   }
 
   .RATE2 {
@@ -294,7 +312,6 @@ body {
     display:flex;
      justify-content: center;
      align-items: center;
-     background-color: rgb(248, 237, 235);
   }
 
   .REVIEW2 {
@@ -305,7 +322,6 @@ body {
     display:flex;
       justify-content: center;
       align-items: center;
-    background-color: rgb(248, 237, 235)
   }
 
   .FOTO2 {
