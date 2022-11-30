@@ -147,3 +147,14 @@ body {
       grid-template-rows: .2fr 2fr 2fr;
       grid-template-columns: 1fr 1fr;
     }
+
+    .bookingslayout {
+      display:grid;
+      grid-template-rows: .2 .4fr 2fr;
+      grid-template-columns: 1fr 1fr
+    }
+
+    .bookingsheader {
+      grid-row: 2/3;
+      grid-column: 1/2;
+    }
