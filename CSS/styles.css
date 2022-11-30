@@ -166,7 +166,10 @@ body {
     }
 
     .maddieatwork {
+      background-image: url(/img/IMG_5220.jpg);
       background-position: center;
+      background-size: cover;
+      margin: 1rem;
     }
 
     .aboutmaintext {
@@ -193,6 +196,31 @@ body {
       border-radius: 50px;
     }
 
+    .aboutinsta {
+      grid-row: 5/6;
+      grid-column: 1/2;
+      text-align: center;
+      padding-top: 7%;
+      margin: 10px;
+      padding: 20px 20px;
+      background: #F9DCC4;
+      border: 2px solid #F9DCC4;
+      border-radius: 50px;
+      font-size: 10px;
+    }
+
+    .aboutfacebook {
+      grid-row: 5/6;
+      grid-column: 2/3;
+      text-align: center;
+      padding-top: 7%;
+      margin: 10px;
+      padding: 10px 10px;
+      background: #F9DCC4;
+      border: 2px solid #F9DCC4;
+      border-radius: 50px;
+      font-size: 10px;
+    }
     
 
 
