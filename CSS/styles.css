@@ -163,6 +163,8 @@ body {
 
     .maddieatwork {
       background-position: center;
+      max-height: 400px;
+      height: 30%;
     }
 
     .aboutmaintext {
@@ -199,7 +201,8 @@ body {
       background: rgb(255, 181, 167);
       border: 2px solid rgb(252, 213, 206);
       border-radius: 50px;
-    
+
+      
     }
 
     
