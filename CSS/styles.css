@@ -156,7 +156,7 @@ body {
 
     .aboutlayout {
       display: grid;
-      grid-template-rows: .05fr 1.5fr .3fr .6fr 1fr 1fr;
+      grid-template-rows: .05fr 1.5fr .3fr .6fr 1fr 1fr .5fr;
       grid-template-columns: 1fr 1fr;
     }
 
@@ -225,7 +225,7 @@ body {
     }
 
     .aboutinsta {
-      grid-row: 6/7;
+      grid-row: 7/8;
       grid-column: 1/2;
       text-align: center;
       padding-top: 7%;
@@ -238,7 +238,7 @@ body {
     }
 
     .aboutfacebook {
-      grid-row: 6/7;
+      grid-row: 7/8;
       grid-column: 2/3;
       text-align: center;
       padding-top: 7%;
