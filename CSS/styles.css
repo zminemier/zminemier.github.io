@@ -1,5 +1,6 @@
 body {
     font-family: 'Inter';
+    margin: 0;
 }
 
 .layout {
@@ -22,8 +23,8 @@ body {
   background-color: #FFB5A7;
   border: #FFB5A7;
   border: 100px;
-  border-radius: 50px;
-  height: 100%;
+  border-radius: 100px 0px 0px 100px;
+  margin-left: 50%;
   min-height: 10px;
   min-width: 10px;
   grid-row: 2/3;
