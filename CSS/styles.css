@@ -79,13 +79,25 @@ body {
   }
 
   .area {
-    grid-template-rows: 3/4;
+    grid-row: 3/4;
+    grid-column: 1/3;
   }
 
   .header {
     grid-template-rows: 1/2;
     font-size: 15px;
     text-align: center;
+  }
+
+  .bookingslayout {
+    display:grid;
+    grid-template-rows: .2 .4fr 2fr;
+    grid-template-columns: 1fr 1fr
+  }
+
+  .bookingsheader {
+    grid-row: 2/3;
+    grid-column: 1/3;
   }
 
     .FORMFATHER {
@@ -156,6 +168,7 @@ body {
   grid-template-rows: 0.4fr 2fr 2fr 2fr 2fr 2fr 
 }
 
+
     .JAX {
         display: grid;
         grid-column: 1/3;
@@ -221,13 +234,4 @@ body {
 
   }
 
-    .bookingslayout {
-      display:grid;
-      grid-template-rows: .2 .4fr 2fr;
-      grid-template-columns: 1fr 1fr
-    }
-
-    .bookingsheader {
-      grid-row: 2/3;
-      grid-column: 1/3;
-    }
+    
