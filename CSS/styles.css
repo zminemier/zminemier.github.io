@@ -92,7 +92,10 @@ body {
       border: 2px solid rgb(252, 213, 206);
       padding-top: 20px;
     }
-    
+
+.comments {
+  padding: 10px;
+}    
     
     button {
       display: block;
