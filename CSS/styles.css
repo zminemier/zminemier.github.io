@@ -150,15 +150,24 @@ body {
 
     /* This is the Reviews CSS start */
 
+.reviewlayout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.4fr 2fr 2fr 2fr 2fr 2fr 
+}
+
     .JAX {
         display: grid;
-        grid-template-columns: 1fr 3fr;
+        grid-column: 1/3;
+        grid-row: 2/4; 
+        grid-template-columns: 1fr 2fr;
         grid-auto-rows: 100px ;
         background-color: Blue;
         row-gap: 5px;
         column-gap: 5px;
         padding: 10px;
-        width: 100%;
+        width: 100%
+
     }
 
     .RATE1 {
@@ -180,11 +189,37 @@ body {
 
     }
 
-    .AID{
+    .AID {
       display: grid;
-      grid-template-columns: 1fr 3fr;
-      grid-auto-rows: 100px;
-    }
+      grid-column: 1/3;
+      grid-row: 4/6; 
+      grid-template-columns: 2fr 1fr;
+      grid-auto-rows: 100px ;
+      background-color: Blue;
+      row-gap: 5px;
+      column-gap: 5px;
+      padding: 10px;
+      width: 100%;
+  }
+
+  .RATE2 {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    background-color: white;
+  }
+
+  .REVIEW2 {
+    grid-column: 2/3;
+    grid-row: 3/5;
+    background-color: white;
+  }
+
+  .FOTO2 {
+    grid-column: 1/2;
+    grid-row: 1/5;
+    background-color: white;
+
+  }
 
     .bookingslayout {
       display:grid;
