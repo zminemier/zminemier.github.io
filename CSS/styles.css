@@ -332,6 +332,7 @@ transform: rotate(15deg);
 
 .reviewlayout {
   display: grid;
+  height: 200vh;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.4fr 0.5fr 2fr 2fr 0.3fr 2fr 2fr 0.3fr;
 
