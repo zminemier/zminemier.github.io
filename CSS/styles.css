@@ -59,10 +59,15 @@ margin-left: 30%;
 transform: rotate(15deg);
 }
 
+.circletext2 {
+  margin-top: 10vh;
+  margin-left: 20%;
+  font-size: x-large;
+  }
+
 .circletext p {
   margin-bottom: 0%;
-  font-size: large;
-  font-weight: 600;
+  font-size:xx-large;
 }
 
   .menubar {
