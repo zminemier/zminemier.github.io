@@ -615,10 +615,10 @@ justify-content: center;
 .REVIEW2 {grid-column: 2/3; grid-row: 2/5;}
 .FOTO2 {grid-column: 1/2; grid-row: 1/5;}
 .layout {grid-template-columns: 1fr 1fr 1fr 1fr;}
-.circle {grid-column: 4/5; grid-row: 2/4; margin-top: 15%; height: 90%; border-radius: 250px 0px 0px 250px;}
-.circle2 {grid-row: 2/4; margin-top: 15%; height: 90%; border-radius: 0px 250px 250px 0px;}
-.circletext {margin-top: 80%; font-size: xx-large;}
-.circletext2 {margin-top: 80%;}
+.circle {grid-column: 4/5; grid-row: 2/4; margin-top: 20%; height: 70%; border-radius: 250px 0px 0px 250px;}
+.circle2 {grid-row: 2/4; margin-top: 20%; height: 70%; border-radius: 0px 250px 250px 0px;}
+.circletext {margin-top: 27vh; font-size: xx-large; transform: rotate(0deg);}
+.circletext2 {margin-top: 30vh;}
 .header {grid-column: 2/4; margin-left: 0%; margin-top: 13%;}
 .navbar {grid-column: 1/5;}
 .shoes {grid-column: 2/4; grid-row: 3/4; width: 75%; margin-left: 12.5%;}
