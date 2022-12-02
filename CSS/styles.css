@@ -7,9 +7,9 @@ body {
 
 .layout {
     display: grid;
-    grid-template-rows: 0.1fr 1fr 1fr 0.7fr;  
+    grid-template-rows: 0.1fr 1fr 1fr 1fr 1fr 1fr;  
     grid-template-columns: 1fr 1fr;
-    height: 150vh;
+    height: 210vh;
   }
   
   .navbar {
