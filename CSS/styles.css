@@ -305,7 +305,7 @@ transform: rotate(15deg);
       grid-column: 1/3;
       background-color: black;
       border-radius: 20px;
-      color: white;
+      color: rgb(252, 213, 206);
       display:flex;
        justify-content: center;
        align-items: center;
