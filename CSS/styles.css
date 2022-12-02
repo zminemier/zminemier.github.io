@@ -83,13 +83,16 @@ transform: rotate(15deg);
 }
 
 .secondphoto {
-  grid-row: 5/7;
+  grid-row: 5/6;
   grid-column: 1/2;
+  border: 3px solid rgb(252, 213, 206);
 }
 
 .blurb {
   grid-row: 5/6;
   grid-column: 2/3;
+  border: 3px solid rgb(252, 213, 206);
+
 }
 
 .contactinfo {
