@@ -72,7 +72,7 @@ transform: rotate(15deg);
 
 .divider {
   padding: 1rem 3rem;
-  width: max(100%);
+  width: max(80%);
   margin: 30px auto;
   border-radius: 12px;
   background-color: #FEC89A;
