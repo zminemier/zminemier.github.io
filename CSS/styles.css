@@ -7,7 +7,7 @@ body {
 
 .layout {
     display: grid;
-    grid-template-rows: 0.1fr 1fr 1fr .01fr 1fr .5fr;  
+    grid-template-rows: 0.1fr 1fr 1fr .1fr 1fr .5fr;  
     grid-template-columns: 1fr 1fr;
     height: 210vh;
   }
@@ -71,10 +71,9 @@ transform: rotate(15deg);
 }
 
 .divider {
-  padding: 1rem 3rem;
-  width: max(80%);
-  margin: 30px auto;
-  border-radius: 12px;
+  width: 100%;
+  height: 85%;
+  margin-top: 1.1%;
   background-color: #FEC89A;
     font-size: 16pt;
   grid-row: 4/5;
@@ -85,7 +84,7 @@ transform: rotate(15deg);
 .secondphoto {
   grid-row: 5/6;
   grid-column: 1/2;
-  border: 5px solid rgb(252, 213, 206);
+  border: 5px solid #FEC89A;
   background-image: url(../img/IMG_5220.jpg);
   background-size: cover;
   background-position: center;
@@ -94,7 +93,7 @@ transform: rotate(15deg);
 .blurb {
   grid-row: 5/6;
   grid-column: 2/3;
-  border: 5px solid rgb(252, 213, 206);
+  border: 5px solid #FEC89A;
   padding: 20px;
 
 }
@@ -604,4 +603,18 @@ justify-content: center;
 .RATE2 {grid-column: 2/3;}
 .REVIEW2 {grid-column: 2/3; grid-row: 2/5;}
 .FOTO2 {grid-column: 1/2; grid-row: 1/5;}
+.layout {grid-template-columns: 1fr 1fr 1fr 1fr;}
+.circle {grid-column: 4/5; grid-row: 2/4; margin-top: 20%;}
+.circle2 {grid-row: 2/4; margin-top: 20%;}
+.circletext {margin-top: 80%; font-size: xx-large;}
+.circletext2 {margin-top: 80%;}
+.header {grid-column: 2/4; margin-left: 0%; margin-top: 13%;}
+.navbar {grid-column: 1/5;}
+.shoes {grid-column: 2/4; grid-row: 3/4; width: 75%; margin-left: 12.5%;}
+.divider {grid-column: 1/5; border-radius: 50px 50px 0 0;}
+.secondphoto {grid-column: 1/3;}
+.blurb {grid-column: 3/5;}
+.contactinfo {grid-column: 1/5;}
+.header h1 {font-size: 60px;}
+.header p {font-size: 30px;}
 }
