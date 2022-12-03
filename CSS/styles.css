@@ -498,7 +498,7 @@ justify-content: center;
       margin: 10px;
       padding: 17px;
       background-size: 200% auto;
-      color:black;
+      color:#FCD5CE;
       background-image: linear-gradient(20deg,rgb(252, 213, 206)  15%, black 50%);
       transition: all 0.5s;
       border-radius: 10px;
