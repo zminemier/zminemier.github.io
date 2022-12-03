@@ -491,7 +491,7 @@ justify-content: center;
       text-decoration: none;
 }
 
-.menubar1 li:hover a {
+.menubar1 li a:hover, a:focus, a:active {
       display: block;
       text-align: center;
       font-size: 20pt;
@@ -503,6 +503,7 @@ justify-content: center;
       transition: all 0.5s;
       border-radius: 10px;
       margin: 0 auto;
+
 }
 
 /* This is the beginning of the Confirmation CSS */
@@ -572,6 +573,7 @@ justify-content: center;
 .menubar li:hover a {
   color: rgb(252, 213, 206)
 }
+
 
 h1 {
   text-align: center;
